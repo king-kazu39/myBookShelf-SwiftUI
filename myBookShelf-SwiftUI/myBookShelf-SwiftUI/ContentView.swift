@@ -9,8 +9,44 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, World!")
+        TabView {
+            HomeView()
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Home")
+            }
+            
+            BookManagement()
+                .tabItem {
+                    Image(systemName: "book")
+                    Text("Home")
+            }
+                
+            UserManagement()
+                .tabItem {
+                    Image(systemName: "person.fill")
+                    Text("Home")
+            }
+                
+            Setting()
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("Home")
+            }
+        }
+    }
+}
+
+struct Content: View {
+    var content: String
+    var color: Color
+    var body: some View {
+        ZStack {
+            Rectangle().fill(color)
+            Text(content).font(.largeTitle)
+        }
     }
 }
 

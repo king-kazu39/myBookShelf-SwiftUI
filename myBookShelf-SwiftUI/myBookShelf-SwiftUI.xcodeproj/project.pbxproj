@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E518D54924D2FE6E00C3B6E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E518D54824D2FE6E00C3B6E2 /* HomeView.swift */; };
 		E59126C224C73A100052C429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59126C124C73A100052C429 /* AppDelegate.swift */; };
 		E59126C424C73A100052C429 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59126C324C73A100052C429 /* SceneDelegate.swift */; };
 		E59126C624C73A100052C429 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59126C524C73A100052C429 /* ContentView.swift */; };
@@ -15,6 +16,9 @@
 		E59126CE24C73A150052C429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59126CC24C73A150052C429 /* LaunchScreen.storyboard */; };
 		E59126D924C73A160052C429 /* myBookShelf_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59126D824C73A160052C429 /* myBookShelf_SwiftUITests.swift */; };
 		E59126E424C73A160052C429 /* myBookShelf_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59126E324C73A160052C429 /* myBookShelf_SwiftUIUITests.swift */; };
+		E5F0FE0D24D304D4004BC3AC /* BookManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0FE0C24D304D4004BC3AC /* BookManagement.swift */; };
+		E5F0FE0F24D30675004BC3AC /* UserManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0FE0E24D30675004BC3AC /* UserManagement.swift */; };
+		E5F0FE1124D306C7004BC3AC /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0FE1024D306C7004BC3AC /* Setting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E518D54824D2FE6E00C3B6E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E59126BE24C73A100052C429 /* myBookShelf-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myBookShelf-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59126C124C73A100052C429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E59126C324C73A100052C429 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		E59126DF24C73A160052C429 /* myBookShelf-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "myBookShelf-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59126E324C73A160052C429 /* myBookShelf_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myBookShelf_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		E59126E524C73A160052C429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F0FE0C24D304D4004BC3AC /* BookManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookManagement.swift; sourceTree = "<group>"; };
+		E5F0FE0E24D30675004BC3AC /* UserManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagement.swift; sourceTree = "<group>"; };
+		E5F0FE1024D306C7004BC3AC /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				E59126C124C73A100052C429 /* AppDelegate.swift */,
 				E59126C324C73A100052C429 /* SceneDelegate.swift */,
 				E59126C524C73A100052C429 /* ContentView.swift */,
+				E5F0FE1024D306C7004BC3AC /* Setting.swift */,
+				E5F0FE0E24D30675004BC3AC /* UserManagement.swift */,
+				E5F0FE0C24D304D4004BC3AC /* BookManagement.swift */,
+				E518D54824D2FE6E00C3B6E2 /* HomeView.swift */,
 				E59126C724C73A150052C429 /* Assets.xcassets */,
 				E59126CC24C73A150052C429 /* LaunchScreen.storyboard */,
 				E59126CF24C73A150052C429 /* Info.plist */,
@@ -268,6 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E59126C224C73A100052C429 /* AppDelegate.swift in Sources */,
+				E5F0FE0F24D30675004BC3AC /* UserManagement.swift in Sources */,
+				E5F0FE0D24D304D4004BC3AC /* BookManagement.swift in Sources */,
+				E518D54924D2FE6E00C3B6E2 /* HomeView.swift in Sources */,
+				E5F0FE1124D306C7004BC3AC /* Setting.swift in Sources */,
 				E59126C424C73A100052C429 /* SceneDelegate.swift in Sources */,
 				E59126C624C73A100052C429 /* ContentView.swift in Sources */,
 			);
